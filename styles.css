@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap");
+
+:root {
+  --primaryColor: #ece8e6;
+  --secondaryColor: #f7f4f2;
+  --thirdColor: #000000;
+}
+
+body {
+  background-color: var(--primaryColor);
+  font-family: "Inter", sans-serif;
+}
+
+section {
+  background-color: var(--secondaryColor);
+}
+
+img {
+  filter: grayscale(100%);
+}
+
+/*-------  Navigation -------------*/
+.navbar {
+  background-color: var(--primaryColor);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #3d3d3d;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: var(--thirdColor);
+  border-bottom: 2px solid var(--thirdColor);
+  padding-bottom: 2px;
+  transition: ease 1s;
+}
+
+/*------------Hero Section------*/
+.imagine-hero-arcada {
+  border-top-left-radius: 48%;
+  border-top-right-radius: 48%;
+  padding-bottom: 2em;
+  width: 80vw;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.diana-home-img {
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.decoration {
+  width: 100px;
+  height: 2px;
+  background-color: var(--thirdColor);
+}
+
+.card-title {
+  font-size: 40px;
+}
+
+@media (max-width: 600px) {
+  .card-title {
+    font-size: 1.5em;
+  }
+}
+
+/*----------About Section-------*/
+
+/*---------traineri----------*/
+.img-trainer {
+  width: 10em;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.rand-traineri {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.traineri-continut {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 2em;
+}
+
+/*----------Education----------*/
+.imagini-educatie {
+  width: 5em;
+  padding-bottom: 1em;
+}
+
+.education-content {
+  padding-bottom: 2em;
+}
+
+@media (max-width: 767px) {
+  .education-items {
+    text-align: center;
+  }
+}
+
+/*--------------WORK-------------------*/
+
+.imagine-proiecte {
+  border-top-left-radius: 25%;
+  border-bottom-right-radius: 25%;
+  margin-bottom: 2em;
+}
+
+/*---------Skills--------------*/
+
+.img-sigla {
+  width: 8em;
+}
+
+/*-------------Let's work togheter------*/
+
+.small-logo {
+  width: 1.8em;
+  margin-right: 0.4em;
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  overflow: hidden;
+  filter: grayscale(100%);
+}
