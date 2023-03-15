@@ -42,7 +42,7 @@ img {
   border-top-left-radius: 48%;
   border-top-right-radius: 48%;
   padding-bottom: 2em;
-  width: 85vw;
+  width: 80vw;
 }
 
 .hero-section {
@@ -117,6 +117,10 @@ img {
   border-top-left-radius: 25%;
   border-bottom-right-radius: 25%;
   margin-bottom: 2em;
+}
+
+.imagine-proiecte:hover {
+  opacity: 0.6;
 }
 
 /*---------Skills--------------*/
